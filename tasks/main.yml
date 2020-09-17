@@ -42,10 +42,10 @@
   when: ubuntu1804cis_section4
   tags: section4
 
-  #- include: section5.yml
-  #  become: true
-  #when: ubuntu1804cis_section5
-  #tags: section5
+- include: section5.yml
+  become: true
+  when: ubuntu1804cis_section5
+  tags: section5
 
 - include: section6.yml
   become: true
